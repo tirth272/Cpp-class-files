@@ -5,9 +5,9 @@ class ashish
 {
 private:
     int money;
-    friend int jay(ashish);
 
 public:
+    friend int jay(ashish);
     ashish()
     {
         money = 0;
